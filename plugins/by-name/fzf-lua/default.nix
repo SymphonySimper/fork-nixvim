@@ -53,6 +53,7 @@ lib.nixvim.neovim-plugin.mkNeovimPlugin {
 
     profile = helpers.defaultNullOpts.mkEnumFirstDefault [
       "default"
+      "default-title"
       "fzf-native"
       "fzf-tmux"
       "fzf-vim"
